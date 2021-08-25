@@ -1,0 +1,101 @@
+h1 {
+    color:white;
+    text-align: center;
+    margin-left: 700px;
+    
+}
+
+.header{
+    background-color: blue;
+    display:flex;
+    justify-content: space-between;
+    border: solid;
+    
+}
+
+.menu{
+    color: white;
+    margin-right: 50px;
+}
+
+.menu a{
+    margin-left: 20px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap:nowrap;
+    
+    flex-flow:column;
+}
+
+.categories{
+    display: flex;
+    flex-wrap:nowrap;
+    
+    flex-flow:row;
+}
+
+.pic{    
+    order:2;
+    position: relative;
+    margin: 10px;
+    justify-content: space-evenly;    
+}
+
+.pic:hover img{
+    opacity: 1;
+}
+
+.item{
+    order:2;
+    position: relative;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+.item p{
+    position: absolute;
+    font-size: xx-large;
+    left: 15%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
+
+.footer{
+    justify-content: flex-end;
+    display: flex;
+}
+
+p, h2{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(255, 196, 160);
+    
+    padding: 30px;
+}
+
+.content{
+    color: white;
+}
+
+a:link{
+    color: white;
+    
+}
+
+a:visited{
+    color: white;
+}
